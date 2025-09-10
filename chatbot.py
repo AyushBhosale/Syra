@@ -20,6 +20,7 @@ try:
     CHAT_CONTEXT = secrets["CHAT_CONTEXT"]
 except:
 
+    # GROQ_API_KEY=os.getenv("GROQ_API_KEY")
     GROQ_API_KEY='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'
     INITIAL_RESPONSE = os.getenv("INITIAL_RESPONSE")
     INITIAL_MSG = os.getenv("INITIAL_MSG")
